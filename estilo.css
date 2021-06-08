@@ -1,0 +1,203 @@
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("Poppins-Regular.ttf") format("truetype");
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+.fade-in-image {
+    animation: fadeIn 5s;
+}
+body{
+    background-color: #EAEAEA;
+    font-family: 'Poppins-Regular';
+    position: relative;
+    min-height: 100%;
+}
+#wrap{
+    text-align: center;
+    overflow: visible;
+    margin-top: -35px;
+}
+header{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 40px;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    top: 0px;
+}
+#AmandaR{
+    list-style: none;
+    display: inline-block;
+    background-color: white;
+    color: black;
+}
+#FotoPet{
+    list-style: none;
+    display: inline-block;
+    color: white;
+}
+nav{
+    float: left;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#navegacao{
+    display: block;
+    list-style: none;
+    position: fixed;
+    margin-top: 15px;
+}
+button{
+    cursor: pointer;
+    width: 250px;
+    border: none;
+    height: 55px;
+    background-color: #D1D0D0;
+}
+button:hover{
+    background-color: #a09d9d;
+    transition: inherit;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+a{
+    text-decoration: none;
+}
+#redesocial{
+    float: left;
+    margin-top: 310px;
+    list-style: none;
+    position: fixed;
+    padding-right: 200px;
+    margin-left: 25px;
+    text-align: left;
+}
+#botaoInstagram{
+    background-image: url("insta.png");
+    background-repeat: no-repeat;
+    font-size: 20px;
+    text-align:    center;
+    overflow: hidden;
+    width: 46px;
+    height: 46px;
+    margin-bottom: 10px;
+}
+#botaoFacebook{
+    background-image: url("facebook.png");
+    background-repeat: no-repeat;
+    font-size: 20px;
+    text-align:    center;
+    overflow: hidden;
+    width: 46px;
+    height: 46px;
+    margin-bottom: 5px;
+}
+#botaoWhats{
+    background-image: url("whatsapp.png");
+    background-repeat: no-repeat;
+    font-size: 20px;
+    text-align:    center;
+    overflow: hidden;
+    width: 46px;
+    height: 46px;
+}
+#conteudo{
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+#contato{
+    width: 400px;
+	font-weight: bold;
+	color: black;
+	font-size: 30px;
+    height: 70vh;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+}
+img{
+    max-width: auto;
+    height: 70vh;
+    margin: 10px;
+}
+img:hover{
+    transform: scale(1.08);
+    transition-duration: 0.5s;
+}
+footer{
+    bottom: 0px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    border: black solid;
+}
+#botaoFacebook:hover {
+    cursor: pointer;
+    width: 46px;
+    height: 46px;
+    border: none;
+    background-color: #EAEAEA;
+    width: 270px;
+    transition: width 1s;
+    padding-left: 30px;
+}
+#botaoFacebook::after {
+  content: "";
+  width: 160px;
+  display: none;
+}
+#botaoFacebook:hover::after {
+    content: "/amandarfotopet";
+    display: block;
+    padding-left: 25px;
+}
+#botaoInstagram:hover {
+    cursor: pointer;
+    width: 46px;
+    height: 46px;
+    border: none;
+    background-color: #EAEAEA;
+    width: 270px;
+    transition: width 1s;
+    padding-left: 20px;
+}
+#botaoInstagram::after {
+  content: "";
+  width: 200px;
+  display: none;
+}
+#botaoInstagram:hover::after {
+    content: "@amandarfotopet";
+    display: block;
+    padding-left: 25px;
+}
+#botaoWhats:hover {
+    cursor: pointer;
+    width: 46px;
+    height: 46px;
+    border: none;
+    background-color: #EAEAEA;
+    width: 270px;
+    transition: width 1s;
+    padding-left: 10px;
+}
+#botaoWhats::after {
+  content: "";
+  width: 200px;
+  display: none;
+}
+#botaoWhats:hover::after {
+    content: "(51) 99673-8760";
+    display: block;
+    padding-left: 25px;
+}
+#Capa{
+    width: auto;
+    height: 75.2vh;
+}
